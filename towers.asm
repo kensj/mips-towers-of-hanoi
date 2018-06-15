@@ -33,7 +33,7 @@ tower:
     	li $v0, 1	# Tower 3
     	move $a0, $s3
     	syscall
-    	li $v0, 4	# to
+    	li $v0, 4	# newline
     	la $a0, newline
     	syscall
    
@@ -69,7 +69,7 @@ towerloop:
     	li $v0, 1		# Disk 3
     	move $a0, $s3
     	syscall
-    	li $v0, 4	# to
+    	li $v0, 4		# newline
     	la $a0, newline
     	syscall
     	
